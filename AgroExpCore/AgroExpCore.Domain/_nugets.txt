@@ -1,0 +1,5 @@
+﻿//NOTE: all packages with proper versions will be installed automatically by VS 
+
+https://www.nuget.org/packages/automapper/
+PM> Install-Package AutoMapper
+

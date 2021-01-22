@@ -1,0 +1,24 @@
+[
+    {
+        "ClientId": "clientAPI1",
+        "AllowedGrantTypes": [ "client_credentials" ],
+        "ClientSecrets": [
+            {
+                "Value": "AgroExpCore-secret",
+                "Description": "AgroExpCore secret"
+            }
+        ],
+        "AllowedScopes": [ "AgroExpCore" ]
+    },
+    {
+        "ClientId": "AgroExpCoreClient",
+        "AllowedGrantTypes": [ "password" ],
+        "ClientSecrets": [
+            {
+                "Value": "AgroExpCore-secret",
+                "Description": "AgroExpCore secret"
+            }
+        ],
+        "AllowedScopes": [ "AgroExpCore" ]
+    }
+]

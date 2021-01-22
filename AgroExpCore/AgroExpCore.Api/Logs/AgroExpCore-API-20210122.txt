@@ -1,0 +1,1037 @@
+===> 2021-01-22 05:07:55.322 -03:00 [Information] Starting web host
+===> 2021-01-22 05:07:55.407 -03:00 [Information] User profile is available. Using '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-01-22 05:07:55.426 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-4a5f24ec-f284-4d1b-a56f-a1e8d065e149.xml"'.
+===> 2021-01-22 05:07:55.443 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-a1d7ac43-0540-4cc3-9961-123278eba360.xml"'.
+===> 2021-01-22 05:07:55.444 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-c9fc52a0-2dc2-4013-a469-d95113c076ac.xml"'.
+===> 2021-01-22 05:07:55.444 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-ea16526b-e638-4faa-8cbb-f30e08ebccd5.xml"'.
+===> 2021-01-22 05:07:55.445 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-eb0754e2-a099-4d5a-918a-2b6e24a7db7c.xml"'.
+===> 2021-01-22 05:07:55.449 -03:00 [Debug] Found key {4a5f24ec-f284-4d1b-a56f-a1e8d065e149}.
+===> 2021-01-22 05:07:55.451 -03:00 [Debug] Found key {a1d7ac43-0540-4cc3-9961-123278eba360}.
+===> 2021-01-22 05:07:55.451 -03:00 [Debug] Found key {c9fc52a0-2dc2-4013-a469-d95113c076ac}.
+===> 2021-01-22 05:07:55.452 -03:00 [Debug] Found key {ea16526b-e638-4faa-8cbb-f30e08ebccd5}.
+===> 2021-01-22 05:07:55.452 -03:00 [Debug] Found key {eb0754e2-a099-4d5a-918a-2b6e24a7db7c}.
+===> 2021-01-22 05:07:55.457 -03:00 [Debug] Considering key {c9fc52a0-2dc2-4013-a469-d95113c076ac} with expiration date 2021-03-02 12:40:44Z as default key.
+===> 2021-01-22 05:07:55.480 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:07:55.482 -03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-01-22 05:07:55.483 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:07:55.486 -03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-01-22 05:07:55.488 -03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-01-22 05:07:55.490 -03:00 [Debug] Using key {c9fc52a0-2dc2-4013-a469-d95113c076ac} as the default key.
+===> 2021-01-22 05:07:55.491 -03:00 [Debug] Key ring with default key {c9fc52a0-2dc2-4013-a469-d95113c076ac} was loaded during application startup.
+===> 2021-01-22 05:07:55.542 -03:00 [Information] Startup::Configure
+===> 2021-01-22 05:07:55.629 -03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2021-01-22 05:07:55.640 -03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-01-22 05:07:55.755 -03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-01-22 05:07:55.806 -03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2021-01-22 05:07:56.410 -03:00 [Information] Entity Framework Core "3.1.0" initialized '"DefaultDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-01-22 05:07:56.541 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.663 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.667 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.673 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2021-01-22 05:07:56.680 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.701 -03:00 [Information] Executed DbCommand ("23"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.704 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.709 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.711 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:07:56.711 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:07:56.711 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.715 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.715 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.732 -03:00 [Information] Executed DbCommand ("17"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.732 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.733 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.742 -03:00 [Debug] Migrating using database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.743 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.746 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.746 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.747 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:07:56.747 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.751 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.751 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.751 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.751 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.752 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.752 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.755 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.755 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.755 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.755 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.755 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.755 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.756 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.838 -03:00 [Debug] DetectChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:56.840 -03:00 [Debug] DetectChanges completed for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:56.852 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.852 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.852 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.855 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.855 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2021-01-22 05:07:56.861 -03:00 [Information] Executed DbCommand ("6"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);"
+===> 2021-01-22 05:07:56.861 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.862 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.862 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.865 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.865 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.865 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.865 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.866 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:07:56.866 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.866 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.866 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:07:56.866 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:07:56.866 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.870 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.870 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.871 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:07:56.871 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.871 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.873 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:07:56.873 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:07:56.873 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.876 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.876 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:07:56.878 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:07:56.879 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:07:56.879 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.879 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.886 -03:00 [Information] Applying migration '"20180708205028_InitialCreate"'.
+===> 2021-01-22 05:07:56.911 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.915 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.916 -03:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-01-22 05:07:56.922 -03:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-01-22 05:07:56.922 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.922 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.923 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2021-01-22 05:07:56.927 -03:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Accounts] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [Name] nvarchar(30) NOT NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsTrial] bit NOT NULL,
+    [IsActive] bit NOT NULL,
+    [SetActive] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    CONSTRAINT [PK_Accounts] PRIMARY KEY ([Id])
+);"
+===> 2021-01-22 05:07:56.927 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.927 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.927 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2021-01-22 05:07:56.930 -03:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Users] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [FirstName] nvarchar(20) NOT NULL,
+    [LastName] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsAdminRole] bit NOT NULL,
+    [Roles] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    [Password] nvarchar(255) NULL,
+    [AccountId] int NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    CONSTRAINT [PK_Users] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_Users_Accounts_AccountId] FOREIGN KEY ([AccountId]) REFERENCES [Accounts] ([Id]) ON DELETE CASCADE
+);"
+===> 2021-01-22 05:07:56.930 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.930 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.930 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2021-01-22 05:07:56.931 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE INDEX [IX_Users_AccountId] ON [Users] ([AccountId]);"
+===> 2021-01-22 05:07:56.931 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.931 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.931 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+	CREATE PROCEDURE prGetUserByFirstandLastName
+	(   
+    		@FirstName nvarchar(50),   
+    		@LastName nvarchar(50)  
+	) 
+	AS     
+	BEGIN
+    	SELECT * FROM Users 
+    	WHERE FirstName = @FirstName AND LastName = @LastName;  
+    	END"
+===> 2021-01-22 05:07:56.933 -03:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+	CREATE PROCEDURE prGetUserByFirstandLastName
+	(   
+    		@FirstName nvarchar(50),   
+    		@LastName nvarchar(50)  
+	) 
+	AS     
+	BEGIN
+    	SELECT * FROM Users 
+    	WHERE FirstName = @FirstName AND LastName = @LastName;  
+    	END"
+===> 2021-01-22 05:07:56.933 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.933 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.933 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+	CREATE PROCEDURE [dbo].[prUpdateEmailByUsername]
+	(	  
+		@UserName nvarchar(50),
+		@Email nvarchar(50)
+	)
+	AS   
+	BEGIN
+		UPDATE Users
+		SET Email=@Email
+		WHERE UserName = @UserName;  
+	END"
+===> 2021-01-22 05:07:56.934 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""
+	CREATE PROCEDURE [dbo].[prUpdateEmailByUsername]
+	(	  
+		@UserName nvarchar(50),
+		@Email nvarchar(50)
+	)
+	AS   
+	BEGIN
+		UPDATE Users
+		SET Email=@Email
+		WHERE UserName = @UserName;  
+	END"
+===> 2021-01-22 05:07:56.934 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:07:56.934 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:07:56.934 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2021-01-22 05:07:56.935 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20180708205028_InitialCreate', N'3.1.0');"
+===> 2021-01-22 05:07:56.936 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:56.939 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:56.940 -03:00 [Debug] Disposing transaction.
+===> 2021-01-22 05:07:56.940 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:56.940 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.080 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:07:57.095 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:07:57.095 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:07:57.095 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.099 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.099 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:07:57.100 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:07:57.102 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:07:57.102 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.103 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.200 -03:00 [Debug] '"DefaultDbContext"' generated a temporary value for the '"Id"' property of new '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.250 -03:00 [Debug] Context '"DefaultDbContext"' started tracking '"Account"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.251 -03:00 [Debug] DetectChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.262 -03:00 [Debug] DetectChanges completed for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.264 -03:00 [Debug] SaveChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.264 -03:00 [Debug] DetectChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.265 -03:00 [Debug] Unchanged '"Account"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.267 -03:00 [Debug] Unchanged '"Account"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.267 -03:00 [Debug] DetectChanges completed for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.271 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.274 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.274 -03:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-01-22 05:07:57.275 -03:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-01-22 05:07:57.306 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:07:57.306 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:07:57.314 -03:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2), @p8='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive], [TestText])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-01-22 05:07:57.339 -03:00 [Information] Executed DbCommand ("28"ms) [Parameters=["@p0='?' (DbType = DateTime2), @p1='?' (Size = 255), @p2='?' (Size = 30), @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime2), @p6='?' (Size = 30), @p7='?' (DbType = DateTime2), @p8='?' (Size = 50)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Accounts] ([Created], [Description], [Email], [IsActive], [IsTrial], [Modified], [Name], [SetActive], [TestText])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+SELECT [Id], [RowVersion]
+FROM [Accounts]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-01-22 05:07:57.351 -03:00 [Debug] Foreign key property '"Account"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.358 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:07:57.358 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:57.361 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:57.361 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.361 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.361 -03:00 [Debug] Disposing transaction.
+===> 2021-01-22 05:07:57.370 -03:00 [Debug] An '"Account"' entity tracked by '"DefaultDbContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.371 -03:00 [Debug] SaveChanges completed for '"DefaultDbContext"' with 1 entities written to the database.
+===> 2021-01-22 05:07:57.373 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:07:57.373 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:07:57.373 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:07:57.373 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.376 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.377 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:07:57.378 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:07:57.378 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:07:57.378 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.378 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.387 -03:00 [Debug] '"DefaultDbContext"' generated a temporary value for the '"Id"' property of new '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.404 -03:00 [Debug] Context '"DefaultDbContext"' started tracking '"User"' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.405 -03:00 [Debug] DetectChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.412 -03:00 [Debug] DetectChanges completed for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.412 -03:00 [Debug] SaveChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.413 -03:00 [Debug] DetectChanges starting for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.413 -03:00 [Debug] Unchanged '"User"."Created"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.413 -03:00 [Debug] Unchanged '"User"."Modified"' detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.413 -03:00 [Debug] DetectChanges completed for '"DefaultDbContext"'.
+===> 2021-01-22 05:07:57.414 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.417 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.417 -03:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-01-22 05:07:57.417 -03:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-01-22 05:07:57.418 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:07:57.418 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:07:57.419 -03:00 [Debug] Executing DbCommand [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 50), @p12='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [TestText], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-01-22 05:07:57.421 -03:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 255), @p3='?' (Size = 30), @p4='?' (Size = 20), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 20), @p8='?' (DbType = DateTime2), @p9='?' (Size = -1), @p10='?' (Size = 255), @p11='?' (Size = 50), @p12='?' (Size = 30)"], CommandType='Text', CommandTimeout='30']"
+""SET NOCOUNT ON;
+INSERT INTO [Users] ([AccountId], [Created], [Description], [Email], [FirstName], [IsActive], [IsAdminRole], [LastName], [Modified], [Password], [Roles], [TestText], [UserName])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12);
+SELECT [Id], [RowVersion]
+FROM [Users]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();"
+===> 2021-01-22 05:07:57.422 -03:00 [Debug] Foreign key property '"User"."Id"' detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+===> 2021-01-22 05:07:57.423 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:07:57.423 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:57.423 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:07:57.423 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.424 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:07:57.424 -03:00 [Debug] Disposing transaction.
+===> 2021-01-22 05:07:57.425 -03:00 [Debug] An '"User"' entity tracked by '"DefaultDbContext"' changed from 'Added' to 'Unchanged'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+===> 2021-01-22 05:07:57.425 -03:00 [Debug] SaveChanges completed for '"DefaultDbContext"' with 1 entities written to the database.
+===> 2021-01-22 05:07:57.426 -03:00 [Debug] '"DefaultDbContext"' disposed.
+===> 2021-01-22 05:07:57.460 -03:00 [Debug] Loaded hosting startup assembly "AgroExpCore.Api"
+===> 2021-01-22 05:07:57.496 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2021-01-22 05:07:57.499 -03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-01-22 05:07:57.567 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:07:57.646 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-01-22 05:07:57.666 -03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api").
+===> 2021-01-22 05:07:57.667 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-01-22 05:07:57.667 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-01-22 05:07:57.667 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-01-22 05:07:57.667 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-01-22 05:07:57.667 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-01-22 05:07:57.668 -03:00 [Debug] Executing controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:07:57.669 -03:00 [Debug] Executed controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:07:57.673 -03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-01-22 05:07:57.696 -03:00 [Information] Executed action "AgroExpCore.Api.Controllers.v1.InfoController.ApiInfo (AgroExpCore.Api)" in 24.9209ms
+===> 2021-01-22 05:07:57.698 -03:00 [Information] Request finished in 204.3148ms 200 text/html
+===> 2021-01-22 05:08:01.003 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2021-01-22 05:08:01.006 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.014 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.031 -03:00 [Information] Request finished in 27.9231ms 301 
+===> 2021-01-22 05:08:01.034 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2021-01-22 05:08:01.036 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.036 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.065 -03:00 [Information] Request finished in 30.9634ms 200 text/html;charset=utf-8
+===> 2021-01-22 05:08:01.080 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2021-01-22 05:08:01.080 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.081 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.081 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2021-01-22 05:08:01.081 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.081 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.106 -03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2021-01-22 05:08:01.106 -03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2021-01-22 05:08:01.110 -03:00 [Information] Request finished in 28.9479ms 200 application/javascript
+===> 2021-01-22 05:08:01.110 -03:00 [Information] Request finished in 29.6788ms 200 text/css
+===> 2021-01-22 05:08:01.112 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2021-01-22 05:08:01.112 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.112 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.117 -03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2021-01-22 05:08:01.117 -03:00 [Information] Request finished in 5.2065ms 200 application/javascript
+===> 2021-01-22 05:08:01.263 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2021-01-22 05:08:01.264 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:01.265 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:08:01.363 -03:00 [Information] Request finished in 99.8203ms 200 application/json;charset=utf-8
+===> 2021-01-22 05:08:17.193 -03:00 [Information] Starting web host
+===> 2021-01-22 05:08:17.251 -03:00 [Information] User profile is available. Using '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-01-22 05:08:17.269 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-4a5f24ec-f284-4d1b-a56f-a1e8d065e149.xml"'.
+===> 2021-01-22 05:08:17.274 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-a1d7ac43-0540-4cc3-9961-123278eba360.xml"'.
+===> 2021-01-22 05:08:17.275 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-c9fc52a0-2dc2-4013-a469-d95113c076ac.xml"'.
+===> 2021-01-22 05:08:17.275 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-ea16526b-e638-4faa-8cbb-f30e08ebccd5.xml"'.
+===> 2021-01-22 05:08:17.275 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-eb0754e2-a099-4d5a-918a-2b6e24a7db7c.xml"'.
+===> 2021-01-22 05:08:17.279 -03:00 [Debug] Found key {4a5f24ec-f284-4d1b-a56f-a1e8d065e149}.
+===> 2021-01-22 05:08:17.281 -03:00 [Debug] Found key {a1d7ac43-0540-4cc3-9961-123278eba360}.
+===> 2021-01-22 05:08:17.281 -03:00 [Debug] Found key {c9fc52a0-2dc2-4013-a469-d95113c076ac}.
+===> 2021-01-22 05:08:17.281 -03:00 [Debug] Found key {ea16526b-e638-4faa-8cbb-f30e08ebccd5}.
+===> 2021-01-22 05:08:17.281 -03:00 [Debug] Found key {eb0754e2-a099-4d5a-918a-2b6e24a7db7c}.
+===> 2021-01-22 05:08:17.286 -03:00 [Debug] Considering key {c9fc52a0-2dc2-4013-a469-d95113c076ac} with expiration date 2021-03-02 12:40:44Z as default key.
+===> 2021-01-22 05:08:17.297 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:08:17.299 -03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-01-22 05:08:17.300 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:08:17.303 -03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-01-22 05:08:17.304 -03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-01-22 05:08:17.307 -03:00 [Debug] Using key {c9fc52a0-2dc2-4013-a469-d95113c076ac} as the default key.
+===> 2021-01-22 05:08:17.307 -03:00 [Debug] Key ring with default key {c9fc52a0-2dc2-4013-a469-d95113c076ac} was loaded during application startup.
+===> 2021-01-22 05:08:17.338 -03:00 [Information] Startup::Configure
+===> 2021-01-22 05:08:17.375 -03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2021-01-22 05:08:17.382 -03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-01-22 05:08:17.458 -03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-01-22 05:08:17.489 -03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2021-01-22 05:08:17.967 -03:00 [Information] Entity Framework Core "3.1.0" initialized '"DefaultDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-01-22 05:08:18.070 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.159 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.163 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:08:18.169 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2021-01-22 05:08:18.176 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:08:18.198 -03:00 [Information] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:08:18.200 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.206 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.209 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:08:18.209 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:08:18.209 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.213 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.214 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:08:18.229 -03:00 [Information] Executed DbCommand ("16"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:08:18.230 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.231 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.242 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:08:18.242 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:08:18.242 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.246 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.246 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:08:18.247 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:08:18.249 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:08:18.249 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.250 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.378 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:08:18.393 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:08:18.393 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:08:18.394 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.397 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.397 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:08:18.398 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:08:18.401 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:08:18.401 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.401 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.402 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:08:18.403 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:08:18.403 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:08:18.403 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.406 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.407 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:08:18.408 -03:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:08:18.408 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:08:18.408 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.409 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:08:18.410 -03:00 [Debug] '"DefaultDbContext"' disposed.
+===> 2021-01-22 05:08:18.424 -03:00 [Debug] Loaded hosting startup assembly "AgroExpCore.Api"
+===> 2021-01-22 05:08:18.440 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2021-01-22 05:08:18.441 -03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-01-22 05:08:18.460 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:08:18.521 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-01-22 05:08:18.539 -03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api").
+===> 2021-01-22 05:08:18.539 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-01-22 05:08:18.539 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-01-22 05:08:18.539 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-01-22 05:08:18.539 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-01-22 05:08:18.539 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-01-22 05:08:18.540 -03:00 [Debug] Executing controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:08:18.540 -03:00 [Debug] Executed controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:08:18.544 -03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-01-22 05:08:18.558 -03:00 [Information] Executed action "AgroExpCore.Api.Controllers.v1.InfoController.ApiInfo (AgroExpCore.Api)" in 15.0792ms
+===> 2021-01-22 05:08:18.559 -03:00 [Information] Request finished in 122.3374ms 200 text/html
+===> 2021-01-22 05:36:52.882 -03:00 [Information] Starting web host
+===> 2021-01-22 05:36:53.020 -03:00 [Information] User profile is available. Using '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-01-22 05:36:53.043 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-4a5f24ec-f284-4d1b-a56f-a1e8d065e149.xml"'.
+===> 2021-01-22 05:36:53.060 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-a1d7ac43-0540-4cc3-9961-123278eba360.xml"'.
+===> 2021-01-22 05:36:53.061 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-c9fc52a0-2dc2-4013-a469-d95113c076ac.xml"'.
+===> 2021-01-22 05:36:53.061 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-ea16526b-e638-4faa-8cbb-f30e08ebccd5.xml"'.
+===> 2021-01-22 05:36:53.061 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-eb0754e2-a099-4d5a-918a-2b6e24a7db7c.xml"'.
+===> 2021-01-22 05:36:53.065 -03:00 [Debug] Found key {4a5f24ec-f284-4d1b-a56f-a1e8d065e149}.
+===> 2021-01-22 05:36:53.068 -03:00 [Debug] Found key {a1d7ac43-0540-4cc3-9961-123278eba360}.
+===> 2021-01-22 05:36:53.068 -03:00 [Debug] Found key {c9fc52a0-2dc2-4013-a469-d95113c076ac}.
+===> 2021-01-22 05:36:53.068 -03:00 [Debug] Found key {ea16526b-e638-4faa-8cbb-f30e08ebccd5}.
+===> 2021-01-22 05:36:53.068 -03:00 [Debug] Found key {eb0754e2-a099-4d5a-918a-2b6e24a7db7c}.
+===> 2021-01-22 05:36:53.074 -03:00 [Debug] Considering key {c9fc52a0-2dc2-4013-a469-d95113c076ac} with expiration date 2021-03-02 12:40:44Z as default key.
+===> 2021-01-22 05:36:53.094 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:36:53.096 -03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-01-22 05:36:53.097 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:36:53.099 -03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-01-22 05:36:53.101 -03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-01-22 05:36:53.104 -03:00 [Debug] Using key {c9fc52a0-2dc2-4013-a469-d95113c076ac} as the default key.
+===> 2021-01-22 05:36:53.104 -03:00 [Debug] Key ring with default key {c9fc52a0-2dc2-4013-a469-d95113c076ac} was loaded during application startup.
+===> 2021-01-22 05:36:53.125 -03:00 [Information] Startup::Configure
+===> 2021-01-22 05:36:53.211 -03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2021-01-22 05:36:53.224 -03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-01-22 05:36:53.317 -03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-01-22 05:36:53.363 -03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2021-01-22 05:36:53.938 -03:00 [Information] Entity Framework Core "3.1.0" initialized '"DefaultDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-01-22 05:36:54.065 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.238 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.242 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:36:54.248 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2021-01-22 05:36:54.255 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:36:54.279 -03:00 [Information] Executed DbCommand ("24"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:36:54.281 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.287 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.290 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:36:54.290 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:36:54.290 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.293 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.294 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:36:54.312 -03:00 [Information] Executed DbCommand ("18"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:36:54.312 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.313 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.336 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:36:54.336 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:36:54.336 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.339 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.339 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:36:54.341 -03:00 [Information] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:36:54.343 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:36:54.343 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.344 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.495 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:36:54.512 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:36:54.512 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:36:54.512 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.564 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.564 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:36:54.573 -03:00 [Information] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:36:54.576 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:36:54.576 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.577 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.578 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:36:54.578 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:36:54.578 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:36:54.579 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.582 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.582 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:36:54.586 -03:00 [Information] Executed DbCommand ("4"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:36:54.586 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:36:54.586 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.587 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:36:54.588 -03:00 [Debug] '"DefaultDbContext"' disposed.
+===> 2021-01-22 05:36:54.624 -03:00 [Debug] Loaded hosting startup assembly "AgroExpCore.Api"
+===> 2021-01-22 05:36:54.652 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2021-01-22 05:36:54.654 -03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-01-22 05:36:54.704 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:36:54.795 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-01-22 05:36:54.816 -03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api").
+===> 2021-01-22 05:36:54.817 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-01-22 05:36:54.817 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-01-22 05:36:54.817 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-01-22 05:36:54.817 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-01-22 05:36:54.817 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-01-22 05:36:54.819 -03:00 [Debug] Executing controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:36:54.819 -03:00 [Debug] Executed controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:36:54.824 -03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-01-22 05:36:54.846 -03:00 [Information] Executed action "AgroExpCore.Api.Controllers.v1.InfoController.ApiInfo (AgroExpCore.Api)" in 24.8417ms
+===> 2021-01-22 05:36:54.848 -03:00 [Information] Request finished in 198.464ms 200 text/html
+===> 2021-01-22 05:37:08.195 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger  
+===> 2021-01-22 05:37:08.204 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.205 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.219 -03:00 [Information] Request finished in 25.2286ms 301 
+===> 2021-01-22 05:37:08.223 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/index.html  
+===> 2021-01-22 05:37:08.225 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.225 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.252 -03:00 [Information] Request finished in 28.7807ms 200 text/html;charset=utf-8
+===> 2021-01-22 05:37:08.265 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui.css  
+===> 2021-01-22 05:37:08.266 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.266 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.268 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-bundle.js  
+===> 2021-01-22 05:37:08.268 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.268 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.294 -03:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+===> 2021-01-22 05:37:08.294 -03:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+===> 2021-01-22 05:37:08.298 -03:00 [Information] Request finished in 30.342ms 200 application/javascript
+===> 2021-01-22 05:37:08.298 -03:00 [Information] Request finished in 32.8164ms 200 text/css
+===> 2021-01-22 05:37:08.300 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/swagger-ui-standalone-preset.js  
+===> 2021-01-22 05:37:08.301 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.301 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.305 -03:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+===> 2021-01-22 05:37:08.305 -03:00 [Information] Request finished in 4.555ms 200 application/javascript
+===> 2021-01-22 05:37:08.477 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/swagger/v1/swagger.json  
+===> 2021-01-22 05:37:08.478 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:37:08.478 -03:00 [Debug] Request did not match any routes
+===> 2021-01-22 05:37:08.623 -03:00 [Information] Request finished in 145.272ms 200 application/json;charset=utf-8
+===> 2021-01-22 05:41:37.985 -03:00 [Information] Starting web host
+===> 2021-01-22 05:41:38.075 -03:00 [Information] User profile is available. Using '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+===> 2021-01-22 05:41:38.097 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-4a5f24ec-f284-4d1b-a56f-a1e8d065e149.xml"'.
+===> 2021-01-22 05:41:38.116 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-a1d7ac43-0540-4cc3-9961-123278eba360.xml"'.
+===> 2021-01-22 05:41:38.116 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-c9fc52a0-2dc2-4013-a469-d95113c076ac.xml"'.
+===> 2021-01-22 05:41:38.117 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-ea16526b-e638-4faa-8cbb-f30e08ebccd5.xml"'.
+===> 2021-01-22 05:41:38.117 -03:00 [Debug] Reading data from file '"C:\Users\PauloCampez\AppData\Local\ASP.NET\DataProtection-Keys\key-eb0754e2-a099-4d5a-918a-2b6e24a7db7c.xml"'.
+===> 2021-01-22 05:41:38.121 -03:00 [Debug] Found key {4a5f24ec-f284-4d1b-a56f-a1e8d065e149}.
+===> 2021-01-22 05:41:38.123 -03:00 [Debug] Found key {a1d7ac43-0540-4cc3-9961-123278eba360}.
+===> 2021-01-22 05:41:38.124 -03:00 [Debug] Found key {c9fc52a0-2dc2-4013-a469-d95113c076ac}.
+===> 2021-01-22 05:41:38.124 -03:00 [Debug] Found key {ea16526b-e638-4faa-8cbb-f30e08ebccd5}.
+===> 2021-01-22 05:41:38.124 -03:00 [Debug] Found key {eb0754e2-a099-4d5a-918a-2b6e24a7db7c}.
+===> 2021-01-22 05:41:38.129 -03:00 [Debug] Considering key {c9fc52a0-2dc2-4013-a469-d95113c076ac} with expiration date 2021-03-02 12:40:44Z as default key.
+===> 2021-01-22 05:41:38.152 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:41:38.154 -03:00 [Debug] Decrypting secret element using Windows DPAPI.
+===> 2021-01-22 05:41:38.155 -03:00 [Debug] Forwarded activator type request from "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.8.0, Culture=neutral, PublicKeyToken=adb9793829ddae60" to "Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60"
+===> 2021-01-22 05:41:38.158 -03:00 [Debug] Opening CNG algorithm '"AES"' from provider 'null' with chaining mode CBC.
+===> 2021-01-22 05:41:38.159 -03:00 [Debug] Opening CNG algorithm '"SHA256"' from provider 'null' with HMAC.
+===> 2021-01-22 05:41:38.162 -03:00 [Debug] Using key {c9fc52a0-2dc2-4013-a469-d95113c076ac} as the default key.
+===> 2021-01-22 05:41:38.162 -03:00 [Debug] Key ring with default key {c9fc52a0-2dc2-4013-a469-d95113c076ac} was loaded during application startup.
+===> 2021-01-22 05:41:38.185 -03:00 [Information] Startup::Configure
+===> 2021-01-22 05:41:38.271 -03:00 [Debug] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider", "Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider"]
+===> 2021-01-22 05:41:38.283 -03:00 [Debug] Initializing Razor view compiler with no compiled views.
+===> 2021-01-22 05:41:38.376 -03:00 [Debug] An 'IServiceProvider' was created for internal use by Entity Framework.
+===> 2021-01-22 05:41:38.425 -03:00 [Debug] An additional 'IServiceProvider' was created for internal use by Entity Framework. An existing service provider was not used due to the following configuration changes: "configuration added for 'Proxies:UseLazyLoadingProxies'".
+===> 2021-01-22 05:41:39.021 -03:00 [Information] Entity Framework Core "3.1.0" initialized '"DefaultDbContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "using lazy-loading proxies "
+===> 2021-01-22 05:41:39.134 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.250 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.254 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.260 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (2ms).
+===> 2021-01-22 05:41:39.267 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.288 -03:00 [Information] Executed DbCommand ("22"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.291 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.297 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.299 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:41:39.299 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:41:39.299 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.302 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.303 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.317 -03:00 [Information] Executed DbCommand ("14"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.317 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.318 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.343 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:41:39.343 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:41:39.343 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.347 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.347 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:41:39.350 -03:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:41:39.352 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:41:39.353 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.353 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.362 -03:00 [Debug] Migrating using database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.362 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.366 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.366 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.366 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:41:39.366 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.367 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.367 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.367 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.367 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:41:39.367 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:41:39.367 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.371 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.371 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.372 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.372 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.372 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.372 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.376 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT 1"
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Creating DbCommand for '"ExecuteScalar"'.
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Created DbCommand for '"ExecuteScalar"' (0ms).
+===> 2021-01-22 05:41:39.376 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.380 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.380 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.380 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT OBJECT_ID(N'[__EFMigrationsHistory]');"
+===> 2021-01-22 05:41:39.380 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.380 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.380 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:41:39.381 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:41:39.381 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.384 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.384 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:41:39.384 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];"
+===> 2021-01-22 05:41:39.384 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:41:39.384 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.385 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.392 -03:00 [Information] Applying migration '"20210122083856_AddNewMigration_202101220538537"'.
+===> 2021-01-22 05:41:39.420 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.424 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.425 -03:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-01-22 05:41:39.431 -03:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-01-22 05:41:39.431 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.431 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:41:39.432 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Companys] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    [Name] nvarchar(20) NOT NULL,
+    [TaxCode] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    CONSTRAINT [PK_Companys] PRIMARY KEY ([Id])
+);"
+===> 2021-01-22 05:41:39.437 -03:00 [Information] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE [Companys] (
+    [Id] int NOT NULL IDENTITY,
+    [Created] datetime2 NOT NULL,
+    [Modified] datetime2 NOT NULL,
+    [RowVersion] rowversion NULL,
+    [TestText] nvarchar(50) NULL,
+    [Name] nvarchar(20) NOT NULL,
+    [TaxCode] nvarchar(20) NOT NULL,
+    [UserName] nvarchar(30) NULL,
+    [Email] nvarchar(30) NOT NULL,
+    [Description] nvarchar(255) NULL,
+    [IsActive] bit NOT NULL,
+    CONSTRAINT [PK_Companys] PRIMARY KEY ([Id])
+);"
+===> 2021-01-22 05:41:39.437 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.437 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:41:39.438 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210122083856_AddNewMigration_202101220538537', N'3.1.0');"
+===> 2021-01-22 05:41:39.438 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210122083856_AddNewMigration_202101220538537', N'3.1.0');"
+===> 2021-01-22 05:41:39.440 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:41:39.442 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:41:39.444 -03:00 [Debug] Disposing transaction.
+===> 2021-01-22 05:41:39.444 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.444 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.444 -03:00 [Information] Applying migration '"20210122084005_AddNewMigration_202101220538036"'.
+===> 2021-01-22 05:41:39.447 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.450 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.450 -03:00 [Debug] Beginning transaction with isolation level '"Unspecified"'.
+===> 2021-01-22 05:41:39.450 -03:00 [Debug] Began transaction with isolation level '"ReadCommitted"'.
+===> 2021-01-22 05:41:39.450 -03:00 [Debug] Creating DbCommand for '"ExecuteNonQuery"'.
+===> 2021-01-22 05:41:39.450 -03:00 [Debug] Created DbCommand for '"ExecuteNonQuery"' (0ms).
+===> 2021-01-22 05:41:39.451 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210122084005_AddNewMigration_202101220538036', N'3.1.0');"
+===> 2021-01-22 05:41:39.451 -03:00 [Information] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20210122084005_AddNewMigration_202101220538036', N'3.1.0');"
+===> 2021-01-22 05:41:39.451 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:41:39.451 -03:00 [Debug] Committing transaction.
+===> 2021-01-22 05:41:39.451 -03:00 [Debug] Disposing transaction.
+===> 2021-01-22 05:41:39.452 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.452 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.589 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:41:39.606 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:41:39.606 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:41:39.606 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.609 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.610 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:41:39.610 -03:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Accounts] AS [a]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:41:39.613 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:41:39.613 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.613 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.615 -03:00 [Debug] "queryContext => new QueryingEnumerable<bool>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, bool>, 
+    AgroExpCore.Entity.Context.DefaultDbContext, 
+    DiagnosticsLogger<Query>
+)
+    .Single()"
+===> 2021-01-22 05:41:39.615 -03:00 [Debug] Creating DbCommand for '"ExecuteReader"'.
+===> 2021-01-22 05:41:39.615 -03:00 [Debug] Created DbCommand for '"ExecuteReader"' (0ms).
+===> 2021-01-22 05:41:39.615 -03:00 [Debug] Opening connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.619 -03:00 [Debug] Opened connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.619 -03:00 [Debug] Executing DbCommand [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:41:39.622 -03:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Users] AS [u]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END"
+===> 2021-01-22 05:41:39.622 -03:00 [Debug] A data reader was disposed.
+===> 2021-01-22 05:41:39.622 -03:00 [Debug] Closing connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.622 -03:00 [Debug] Closed connection to database '"AgroExpCoreEf"' on server '"(LocalDB)\MSSQLLocalDB"'.
+===> 2021-01-22 05:41:39.623 -03:00 [Debug] '"DefaultDbContext"' disposed.
+===> 2021-01-22 05:41:39.656 -03:00 [Debug] Loaded hosting startup assembly "AgroExpCore.Api"
+===> 2021-01-22 05:41:39.684 -03:00 [Information] Request starting HTTP/1.1 GET http://localhost:44341/api/info  
+===> 2021-01-22 05:41:39.686 -03:00 [Debug] Wildcard detected, all requests with hosts will be allowed.
+===> 2021-01-22 05:41:39.735 -03:00 [Debug] AuthenticationScheme: "Bearer" was not authenticated.
+===> 2021-01-22 05:41:39.819 -03:00 [Debug] Request successfully matched the route with name 'null' and template '"api/Info"'
+===> 2021-01-22 05:41:39.839 -03:00 [Information] Route matched with "{action = \"ApiInfo\", controller = \"Info\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult ApiInfo()" on controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api").
+===> 2021-01-22 05:41:39.839 -03:00 [Debug] Execution plan of "authorization" filters (in the following order): ["None"]
+===> 2021-01-22 05:41:39.839 -03:00 [Debug] Execution plan of "resource" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter"]
+===> 2021-01-22 05:41:39.840 -03:00 [Debug] Execution plan of "action" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)", "Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+===> 2021-01-22 05:41:39.840 -03:00 [Debug] Execution plan of "exception" filters (in the following order): ["None"]
+===> 2021-01-22 05:41:39.840 -03:00 [Debug] Execution plan of "result" filters (in the following order): ["Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter", "Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)", "Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)", "Microsoft.AspNetCore.Mvc.ProducesAttribute (Order: 0)"]
+===> 2021-01-22 05:41:39.841 -03:00 [Debug] Executing controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:41:39.841 -03:00 [Debug] Executed controller factory for controller "AgroExpCore.Api.Controllers.v1.InfoController" ("AgroExpCore.Api")
+===> 2021-01-22 05:41:39.846 -03:00 [Information] Executing ContentResult with HTTP Response ContentType of "text/html"
+===> 2021-01-22 05:41:39.868 -03:00 [Information] Executed action "AgroExpCore.Api.Controllers.v1.InfoController.ApiInfo (AgroExpCore.Api)" in 24.6816ms
+===> 2021-01-22 05:41:39.870 -03:00 [Information] Request finished in 188.5283ms 200 text/html
